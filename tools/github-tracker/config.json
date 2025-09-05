@@ -1,0 +1,32 @@
+{
+  "github": {
+    "token": "your_github_personal_access_token_here",
+    "repositories": [
+      "bitcoin/bitcoin",
+      "ethereum/go-ethereum",
+      "bitcoin-core/secp256k1",
+      "ethereum/solidity",
+      "bitcoin/bips",
+      "ethereum/EIPs",
+      "Uniswap/v3-core",
+      "compound-finance/compound-protocol",
+      "0xProject/0x-monorepo",
+      "solana-labs/solana",
+      "paritytech/polkadot",
+      "cosmos/cosmos-sdk",
+      "ava-labs/avalanchego",
+      "maticnetwork/matic.js",
+      "chainlink/chainlink"
+    ]
+  },
+  "tracking": {
+    "update_interval_hours": 24,
+    "days_lookback": 7,
+    "max_items_per_request": 100
+  },
+  "output": {
+    "format": "json",
+    "include_raw_data": false,
+    "compress_output": false
+  }
+}
