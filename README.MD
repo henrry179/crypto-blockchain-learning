@@ -7,7 +7,7 @@
 本项目旨在为区块链和加密货币学习者提供一个全面、有组织的学习路径和资源集合。资源按照类型和主题精心分类，方便持续学习和跟踪这个快速发展的领域。
 
 **项目状态：** ✅ 已完成基础搭建和内容填充
-**最后更新：** 2025-09-05 17:43:21
+**最后更新：** 2025-09-05 17:48:35
 
 ## 📁 项目结构
 
@@ -39,7 +39,20 @@ crypto-blockchain-learning-path/
 ├── notes/                  # 学习笔记与总结
 │   ├── bitcoin/           # 比特币相关笔记
 │   ├── ethereum/          # 以太坊相关笔记
-│   └── project-reviews/   # 项目调研笔记
+│   ├── project-reviews/   # 项目调研笔记
+│   └── Blockchain-dark-forest-selfguard-handbook/ # 区块链安全手册
+│       ├── README.md      # 英文版手册
+│       ├── README_CN.md   # 中文版手册
+│       ├── README_JP.md   # 日文版手册
+│       ├── README_KR.md   # 韩文版手册
+│       ├── README_AR.md   # 阿拉伯文版手册
+│       ├── README_ID.md   # 印尼文版手册
+│       ├── CN-Blockchain-dark-forest-selfguard-handbook-V1.1.pdf # 中文PDF版本
+│       ├── CN-Blockchain-dark-forest-selfguard-handbook-V1.2.pdf # 中文PDF版本
+│       ├── CN-Blockchain-dark-forest-selfguard-handbook-V1.3.pdf # 中文PDF版本
+│       └── res/           # 相关图片资源
+│           ├── *.png/jpg  # 安全相关的示例图片
+│           └── ...        # 其他资源文件
 │
 ├── .github/               # GitHub配置文件
 │   └── ISSUE_TEMPLATE/    # Issue模板
