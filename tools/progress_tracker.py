@@ -84,6 +84,16 @@ class ProgressTracker:
         
         self._save_progress()
     
+    def delete_task(self, task_id: str):
+        """
+        Delete a task from the tracking system.
+        
+        Args:
+            task_id: The ID of the task to delete
+        """
+        self.tasks = [task for task in self.tasks if task["task_id"] != task_id]
+        self._save_progress()
+    
     def _get_current_time(self) -> str:
         """
         Get the current time from the local machine.

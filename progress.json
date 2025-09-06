@@ -1,0 +1,110 @@
+[
+  {
+    "task_id": "T001",
+    "description": "创建开发进度管理系统的核心逻辑",
+    "expected_output": "一个可以记录任务状态和时间戳的系统设计方案",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T002",
+    "description": "实现时间戳自动更新功能",
+    "expected_output": "能够在任务更新时自动添加本机实时时间的代码逻辑",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T003",
+    "description": "设计与README.MD文档的同步机制",
+    "expected_output": "",
+    "status": "Completed",
+    "priority": "Medium",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T004",
+    "description": "创建任务状态跟踪界面",
+    "expected_output": "",
+    "status": "Completed",
+    "priority": "Medium",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T005",
+    "description": "实现任务完成后的自动文档更新功能",
+    "expected_output": "",
+    "status": "Completed",
+    "priority": "Low",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T006",
+    "description": "完善区块链完整的技术框架",
+    "expected_output": "完整的区块链技术框架文档",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T007",
+    "description": "完善比特币和以太坊的金融交易框架及概念解释",
+    "expected_output": "比特币和以太坊完整的金融交易框架文档",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T008",
+    "description": "完善区块链完整的技术框架文档内容",
+    "expected_output": "详细的技术框架文档，包含各组件关系和交互流程",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 16:40:30"
+  },
+  {
+    "task_id": "T009",
+    "description": "增强进度跟踪工具，添加任务删除功能",
+    "expected_output": "支持删除任务的进度跟踪工具功能",
+    "status": "Completed",
+    "priority": "Medium",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 15:45:22"
+  },
+  {
+    "task_id": "T010",
+    "description": "添加新的区块链项目研究笔记",
+    "expected_output": "至少2个新的项目研究笔记文档",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 17:05:45"
+  },
+  {
+    "task_id": "T011",
+    "description": "完善以太坊智能合约开发相关内容",
+    "expected_output": "以太坊智能合约开发指南和最佳实践文档",
+    "status": "Completed",
+    "priority": "High",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 17:25:30"
+  },
+  {
+    "task_id": "T012",
+    "description": "优化项目结构文档，添加可视化图表",
+    "expected_output": "包含图表的项目结构说明文档",
+    "status": "Completed",
+    "priority": "Low",
+    "created_at": "2025-09-06 15:45:22",
+    "updated_at": "2025-09-06 17:30:15"
+  }
+]

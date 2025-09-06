@@ -36,7 +36,14 @@ tracker.update_task_status("T001", "In Progress")
 tracker.update_task_status("T001", "Completed", "一个可以记录任务状态和时间戳的系统设计方案")
 ```
 
-### 3. 生成进度报告
+### 3. 删除任务
+
+```python
+# 删除指定任务
+tracker.delete_task("T001")
+```
+
+### 4. 生成进度报告
 
 有两种方式可以生成进度报告：
 

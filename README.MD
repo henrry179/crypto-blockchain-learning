@@ -2,25 +2,30 @@
 
 一个系统化、结构化的区块链与加密货币学习资源库，涵盖从支付系统基础到前沿区块链技术的完整知识体系。
 
+**项目状态：** ✅ 已完成基础搭建和内容填充
+**最后更新：** 2025-09-06 19:10:45
+
 ## 🚀 项目概述
 
 本项目旨在为区块链和加密货币学习者提供一个全面、有组织的学习路径和资源集合。资源按照类型和主题精心分类，方便持续学习和跟踪这个快速发展的领域。
 
-**项目状态：** ✅ 已完成基础搭建和内容填充
-**最后更新：** 2025-09-05 17:48:35
-
 ## 📁 项目结构
 
-```bash
-crypto-blockchain-learning-path/
+```
+crypto-blockchain-learning/
 │
 ├── docs/                    # 详细文档和指南
 │   ├── payment-knowledge/   # 支付领域背景知识
 │   ├── core-concepts/       # 核心概念解析
 │   │   ├── blockchain-fundamentals.md         # 区块链基础概念
 │   │   ├── blockchain-technical-framework.md  # 区块链完整技术框架
+│   │   ├── blockchain-consensus-mechanisms.md # 区块链共识机制详解
+│   │   ├── bitcoin-whitepaper-analysis.md     # 比特币白皮书技术解剖
+│   │   ├── ethereum-whitepaper-analysis.md    # 以太坊白皮书技术解剖
+│   │   ├── defi-applications-case-studies.md # DeFi应用案例分析
 │   │   ├── bitcoin-financial-framework.md    # 比特币金融交易框架
-│   │   └── ethereum-financial-framework.md   # 以太坊金融交易框架
+│   │   ├── ethereum-financial-framework.md   # 以太坊金融交易框架
+│   │   └── ethereum-smart-contracts-guide.md # 以太坊智能合约开发指南
 │   └── research-frameworks/ # 项目研究框架
 │
 ├── resources/               # 分类学习资源
@@ -61,6 +66,71 @@ crypto-blockchain-learning-path/
 ├── CODE_OF_CONDUCT.md     # 行为准则
 ├── LICENSE                # 开源许可证
 └── README.md              # 项目主文档
+```
+
+### 项目模块关系图
+
+``mermaid
+graph TD
+    A[Crypto & Blockchain Learning] --> B[docs]
+    A --> C[resources]
+    A --> D[tools]
+    A --> E[notes]
+    
+    B --> B1[payment-knowledge]
+    B --> B2[core-concepts]
+    B --> B3[research-frameworks]
+    
+    B2 --> B21[blockchain-fundamentals.md]
+    B2 --> B22[blockchain-technical-framework.md]
+    B2 --> B23[blockchain-consensus-mechanisms.md]
+    B2 --> B24[bitcoin-whitepaper-analysis.md]
+    B2 --> B25[ethereum-whitepaper-analysis.md]
+    B2 --> B26[defi-applications-case-studies.md]
+    B2 --> B27[bitcoin-financial-framework.md]
+    B2 --> B28[ethereum-financial-framework.md]
+    B2 --> B29[ethereum-smart-contracts-guide.md]
+    
+    C --> C1[01-foundation]
+    C --> C2[02-development]
+    C --> C3[03-projects]
+    C --> C4[04-industry]
+    C --> C5[05-background]
+    
+    D --> D1[github-tracker]
+    D --> D2[twitter-lists]
+    D --> D3[podcast-downloader]
+    D --> D4[progress-tracker]
+    
+    E --> E1[bitcoin]
+    E --> E2[ethereum]
+    E --> E3[project-reviews]
+    E --> E4[Blockchain-dark-forest-selfguard-handbook]
+```
+
+### 学习路径图
+
+``mermaid
+graph LR
+    A[基础知识] --> B[核心技术]
+    B --> C[项目实践]
+    C --> D[行业应用]
+    
+    A --> A1[支付知识]
+    A --> A2[区块链基础]
+    
+    B --> B1[技术框架]
+    B --> B2[共识机制]
+    B --> B3[白皮书解析]
+    B --> B4[DeFi应用]
+    B --> B5[比特币金融]
+    B --> B6[以太坊智能合约]
+    
+    C --> C1[项目分析]
+    C --> C2[安全手册]
+    
+    D --> D1[行业动态]
+    D --> D2[市场洞察]
 ```
 
 ## 📅 项目时间表

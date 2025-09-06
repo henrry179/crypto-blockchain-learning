@@ -9,17 +9,21 @@ created by the progress tracker.
 import json
 import os
 from datetime import datetime
+import sys
 
+# Add parent directory to path so we can import progress_tracker
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 def generate_progress_report():
     """Generate a progress report from the progress.json file."""
-    # Check if progress.json exists
-    if not os.path.exists('progress.json'):
+    # Check if progress.json exists in parent directory
+    progress_file = os.path.join(os.path.dirname(__file__), '..', 'progress.json')
+    if not os.path.exists(progress_file):
         print("No progress data found. Run progress_tracker.py first.")
         return
     
     # Load progress data
-    with open('progress.json', 'r', encoding='utf-8') as f:
+    with open(progress_file, 'r', encoding='utf-8') as f:
         tasks = json.load(f)
     
     # Generate report
@@ -45,12 +49,13 @@ def generate_progress_report():
     report += f"- 已完成任务: {status_counts['Completed']}\n"
     report += f"- 总任务数: {len(tasks)}\n"
     
-    # Save report to file
-    with open('progress_report.md', 'w', encoding='utf-8') as f:
+    # Save report to file in tools directory
+    report_file = os.path.join(os.path.dirname(__file__), 'progress_report.md')
+    with open(report_file, 'w', encoding='utf-8') as f:
         f.write(report)
     
     print("Progress report generated successfully!")
-    print("Report saved to progress_report.md")
+    print(f"Report saved to {report_file}")
 
 
 if __name__ == "__main__":
